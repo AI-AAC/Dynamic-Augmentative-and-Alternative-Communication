@@ -18,7 +18,7 @@ from board_gen_pipeline import (
     BoardGenerator
 )
 
-ARASAAC_DATA_PATH = f'{parent_directory}/data/arasaac_pictograms_complete_20251106_130529.json'
+ARASAAC_DATA_PATH = f'./data/arasaac_pictograms_complete_20251106_130529.json'
 
 # Initialize session state
 if 'result' not in st.session_state:

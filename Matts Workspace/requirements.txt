@@ -1,0 +1,23 @@
+# Core dependencies for AAC Board Generator
+pandas>=2.0.0
+numpy>=1.24.0
+Pillow>=10.0.0
+requests>=2.31.0
+
+# Deep Learning and ML
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Web Application
+streamlit>=1.28.0
+
+# Text-to-Speech
+gtts>=2.5.0
+
+# Optional: For Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+

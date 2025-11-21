@@ -3,9 +3,9 @@ import os
 from collections import defaultdict, Counter
 from pathlib import Path
 import sys
-from transformers import Blip2Processor, Blip2ForConditionalGeneration
-import torch
 import time
+from transformers import BlipProcessor, BlipForConditionalGeneration
+import torch
 from PIL import Image
 
 start_time = time.time()
@@ -20,6 +20,9 @@ parent_directory = current_directory.parent
 # Test Paths
 ARASAAC_DATA_PATH = f'{parent_directory}/data/arasaac_pictograms_complete_20251106_130529.json'
 TEST_IMAGE_PATH = f'{parent_directory}/images/flickr8k/Images/1397295388_8a5b6b525d.jpg'
+
+# Model
+BLIP_MODEL_NAME = 'Salesforce/blip-image-captioning-base'
 
 ## Classes ##
 
@@ -93,9 +96,9 @@ class ArasaacMatcher:
 class SceneCaptioner:
     def __init__(self, device='cuda' if torch.cuda.is_available() else 'cpu'):
         self.device = device
-        self.processor = Blip2Processor.from_pretrained('Salesforce/blip2-opt-2.7b', use_fast=False)
-        self.model = Blip2ForConditionalGeneration.from_pretrained(
-            'Salesforce/blip2-opt-2.7b',
+        self.processor = BlipProcessor.from_pretrained(BLIP_MODEL_NAME, use_fast=False)
+        self.model = BlipForConditionalGeneration.from_pretrained(
+            BLIP_MODEL_NAME,
             dtype=torch.float16 if device == 'cuda' else torch.float32
         ).to(device)
 
@@ -108,9 +111,9 @@ class SceneCaptioner:
         ## Natural language interrogation.
         prompts = [
             'What do you see?:',
-            'Question: What actions are happening in this image? Answer: ',
+            # 'Question: What actions are happening in this image? Answer: ',
             # 'Question: What is the generic setting of this image? Answer: ?',
-             'Question: What objects are visible? Answer:',
+            # 'Question: What objects are visible? Answer:',
         ]
 
         captions = []
@@ -146,16 +149,6 @@ class SceneCaptioner:
 
         return captions
     
-    # def get_unique_words(self, captions):
-    #     ''' Extract set of unique words from all captions.'''
-    #
-        # uniques_list = [set(caption.split()) or [] for caption in captions]
-        # unique_words = set()
-        # for s in uniques_list:
-        #     unique_words.update(s)
-        #
-        # return unique_words
-
     def get_unique_words(self, captions, core_vocab=None, min_length=3):
         ''' Extract set of unique words from all captions, excluding core vocabulary and small words.'''
 
@@ -521,7 +514,7 @@ class BoardGenerator:
         self.synset_mapper = synset_mapper
 
         self.core_vocabulary = [
-            'i', 'you', 'me', 'want', 'like', 'need', 'help',
+            'i', 'you', 'me', 'they', 'want', 'like', 'need', 'help',
             'yes', 'no', 'more', 'stop', 'go', 'come',
             'good', 'bad', 'happy', 'sad'
         ]
@@ -575,12 +568,12 @@ class BoardGenerator:
                 compound_matches = self.matcher.search_compound(concept)
                 matched_symbols.update(compound_matches)
 
-            # Try synset matching
+            # Try synset matching.
             for offset in synset_data['offsets']:
                 symbols = self.matcher.synset_to_symbols.get(offset, [])
                 matched_symbols.update(symbols)
 
-            # Fallback: keyword matching
+            # Fallback: keyword matching.
             if not matched_symbols:
                 keyword_matches = self.matcher.keyword_to_symbols.get(concept.lower(), [])
                 matched_symbols.update(keyword_matches)
@@ -708,7 +701,7 @@ class BoardGenerator:
         }
 
         for concept, symbol_ids in concept_to_symbols.items():
-            # Check if concept is from image or context
+            # Check if concept is from image or context.
             in_image = concept in [c for concepts in image_concepts.values() for c in concepts]
             in_context = concept.lower() in [w.lower() for w in context_words]
 
@@ -717,30 +710,30 @@ class BoardGenerator:
             pos_category = concept_to_pos.get(concept, 'nouns')
             weight = pos_weights.get(pos_category, 0.5)
 
-            # Boost image concepts (things actually visible)
+            # Boost image concepts (things actually visible).
             if in_image:
                 weight *= 1.5  # 50% boost for visible items
 
-            # Boost context words (situationally relevant)
+            # Boost context words (situationally relevant).
             elif in_context:
                 weight *= 1.2  # 20% boost for context vocabulary
 
             for symbol_id in symbol_ids:
                 symbol_scores[symbol_id] += weight + (freq * 0.5)
 
-                # Track which concepts this symbol represents
+                # Track which concepts this symbol represents.
                 if symbol_id not in symbol_to_concepts:
                     symbol_to_concepts[symbol_id] = []
                 symbol_to_concepts[symbol_id].append(concept)
 
-        # Build board with deduplication
+        # Build board with deduplication.
         board_symbol_ids = []
         represented_concepts = set()
 
         for symbol_id, score in symbol_scores.most_common():
             symbol_concepts = symbol_to_concepts.get(symbol_id, [])
 
-            # Skip if concept already represented
+            # Skip if concept already represented.
             if any(concept in represented_concepts for concept in symbol_concepts):
                 continue
 

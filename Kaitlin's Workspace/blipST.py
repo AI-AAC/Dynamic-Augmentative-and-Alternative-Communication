@@ -43,7 +43,7 @@ def caption_image(image: Image.Image, prompt: Optional[str] = None, max_length: 
         )
     return processor.decode(out[0], skip_special_tokens=True).strip()
 
-img_path = f'{cwd}/test_images/airport/airport_002.jpg'
+img_path = f'{cwd}/test_images/cleaned_test_images/airport/clean_airport_002.jpg'
 image = Image.open(img_path)
 
 caption = caption_image(image, prompt="A concise description of the scene:")

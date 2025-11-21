@@ -10,7 +10,7 @@ st.set_page_config(page_title="AAC Board Generator", layout="wide")  # Widened l
 current_directory = Path.cwd()
 parent_directory = current_directory.parent
 
-from board_gen_pipeline import (
+from board_gen_pipeline_blip1 import (
     ArasaacMatcher,
     SceneCaptioner,
     ConceptExtractor,

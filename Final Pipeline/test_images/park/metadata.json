@@ -1,0 +1,353 @@
+[
+  {
+    "filename": "park_001.jpg",
+    "original_id": 159977,
+    "original_filename": "000000159977.jpg",
+    "captions": [
+      "A giraffe and a zebra checking each other out.",
+      "A giraffe and a zebra are on a grassy field by the water.",
+      "A giraffe and a zebra walking through an African plain.",
+      "A giraffe looks down at a zebra on the field",
+      "a zebra and a giraffe in the wild"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "grass",
+      "walking",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_002.jpg",
+    "original_id": 469192,
+    "original_filename": "000000469192.jpg",
+    "captions": [
+      "A car is parked on dry grass with kites overhead.",
+      "A truck driving through a field with people flying kites.",
+      "An open field with a truck and some kites being flown",
+      "A pickup truck is parked underneath multiple flying kites.",
+      "A truck sitting on a field with kites in the air."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_003.jpg",
+    "original_id": 48924,
+    "original_filename": "000000048924.jpg",
+    "captions": [
+      "A dirt bike parked near a tent in the woods.",
+      "a green tent and a parked motorcycle and some trees",
+      "Motorcycle parked in front of a tent with the sun going down behind them. ",
+      "a motorcycle parked next to a green tent in a field",
+      "A parked motorcycle next to a green tent."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "trees",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_004.jpg",
+    "original_id": 531707,
+    "original_filename": "000000531707.jpg",
+    "captions": [
+      "A group of people sitting on a wooden bench next to a  field.",
+      "a group of old people sitting on a bench talking ",
+      "Four older men sitting on a wooden bench.",
+      "A black and white photo of four elderly people sitting in a bench overlooking the ocean.",
+      "A group of four elders sit on a park bench in front of the ocean."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "bench",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_005.jpg",
+    "original_id": 520324,
+    "original_filename": "000000520324.jpg",
+    "captions": [
+      "Someone is driving a cart near a single engine airplane.",
+      "a small air plane on a small run way",
+      "A small airplane that is parked near a run way.",
+      "A small airplane sitting next to an airport runway.",
+      "A crop dusting plane next to grassy field and tree."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_006.jpg",
+    "original_id": 349184,
+    "original_filename": "000000349184.jpg",
+    "captions": [
+      "A woman sitting on top of a wooden bench near a park.",
+      "A person sits on a wooden bench facing blooming trees.",
+      "A woman sitting on a wooden bench viewing some beautiful trees.",
+      "Adult sitting on wooden park bench in large open space.",
+      "A woman sits on a bench watching the park."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "trees",
+      "bench"
+    ]
+  },
+  {
+    "filename": "park_007.jpg",
+    "original_id": 338219,
+    "original_filename": "000000338219.jpg",
+    "captions": [
+      "A couple of motorcycles parked next to each other.",
+      "A man looking at motorcycles in a field.",
+      "Many motorcycles are parked in the ground.A middle aged person standing near a bike.",
+      "A man looks at a motorcycle amongst others in a field.",
+      "a close up of some motorcycles parked on a grassy field"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_008.jpg",
+    "original_id": 455716,
+    "original_filename": "000000455716.jpg",
+    "captions": [
+      "A row of motorcycles parked together on a grass yard area with a house in the background.",
+      "Several motorcycles are parked on the green grass.",
+      "Motorcycles lined-up in an empty, grassy field, all in front of a house.",
+      "Altered photograph of very shiny motor cycles in a field",
+      "a motorcycle is parked in a grassy field"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_009.jpg",
+    "original_id": 227478,
+    "original_filename": "000000227478.jpg",
+    "captions": [
+      "two women sitting on a park bench, one looking over her shoulder",
+      "Two women sit next to each other on a park bench. ",
+      "two people sitting on a bench near trees",
+      "A pair of girls sit on a bench outside.",
+      "Black and white photograph of women on an old park bench"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "trees",
+      "bench"
+    ]
+  },
+  {
+    "filename": "park_010.jpg",
+    "original_id": 463037,
+    "original_filename": "000000463037.jpg",
+    "captions": [
+      "A plane site on a grassy country runway.",
+      "a close up of an old plane in a field",
+      "A small passenger airplane sits in the grass at the airport.",
+      "White and silver Scottish Airways plane on the ground. ",
+      " a twin propeller air plane parked in the grass"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_011.jpg",
+    "original_id": 408830,
+    "original_filename": "000000408830.jpg",
+    "captions": [
+      "a colorful motorcycle sitting next to a fence ",
+      "a bunch of parked motor bikes sit on some grass",
+      "A BMW motorcycle is parked on display in this field",
+      "A row of foreign motorcycles is lined up in front of a wooden fence.",
+      "A sleek white, red and blue motorcycle parked opposite of several others."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "park",
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_012.jpg",
+    "original_id": 179765,
+    "original_filename": "000000179765.jpg",
+    "captions": [
+      "A black Honda motorcycle parked in front of a garage.",
+      "A Honda motorcycle parked in a grass driveway",
+      "A black Honda motorcycle with a dark burgundy seat.",
+      "Ma motorcycle parked on the gravel in front of a garage",
+      "A motorcycle with its brake extended standing outside"
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "grass"
+    ]
+  },
+  {
+    "filename": "park_013.jpg",
+    "original_id": 172330,
+    "original_filename": "000000172330.jpg",
+    "captions": [
+      "A cat in between two cars in a parking lot.",
+      "A cat stands between two parked cars on a grassy sidewalk. ",
+      "A cat at attention between two parked cars.",
+      "A grey and white cat watches from between parked cars.",
+      "A grey and white cat standing in the grass in a parking lot. "
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "grass"
+    ]
+  },
+  {
+    "filename": "park_014.jpg",
+    "original_id": 314251,
+    "original_filename": "000000314251.jpg",
+    "captions": [
+      "A parade of motorcycles is going through a group of tall trees.",
+      "A group of motorcyclists drive down a tree lined street.",
+      "A group of motorcycles down a long street filled with trees on either side.",
+      "A group of people riding mopeds through a park.",
+      "A group of scooters rides down a street"
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "trees"
+    ]
+  },
+  {
+    "filename": "park_015.jpg",
+    "original_id": 65485,
+    "original_filename": "000000065485.jpg",
+    "captions": [
+      "A dog driving an SUV in an open grass covered field.",
+      "A dog sits in the front seat of a jeep. ",
+      "A dog is sitting inside a red car.",
+      "A red truck has a black dog in the drivers chair.",
+      "A dog sitting in the front seat of a truck."
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "grass",
+      "field"
+    ]
+  },
+  {
+    "filename": "park_016.jpg",
+    "original_id": 391375,
+    "original_filename": "000000391375.jpg",
+    "captions": [
+      "A girl sitting on a bench in front of a stone wall.",
+      "A woman in black sits on a park bench. ",
+      "A woman sitting on a bench in a stone alcove. ",
+      "A young woman in black spotted tights is sitting on a bench.",
+      "A beautiful woman sitting on a bench next to a stone building."
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "bench"
+    ]
+  },
+  {
+    "filename": "park_017.jpg",
+    "original_id": 368335,
+    "original_filename": "000000368335.jpg",
+    "captions": [
+      "a brown horse is walking in between two cars",
+      "A horse walks between cars in a parking lot.",
+      "A horse walking between the parking spaces of two cars.",
+      "A horse is standing between two parked cars. ",
+      "From the rear, we see a horse standing between two cars parked in a parking lot."
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "walking"
+    ]
+  },
+  {
+    "filename": "park_018.jpg",
+    "original_id": 152771,
+    "original_filename": "000000152771.jpg",
+    "captions": [
+      "A bike in the middle of an empty parking lot next to trees",
+      "An empty parking lot features green trees and a single white bicycle.",
+      "A bicycle parked in an empty parking lot by itself",
+      "A lone bicycle parked in a parking lot with cars parked on a street.",
+      "A bicycle stands in the middle of an empty parking lot."
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "trees"
+    ]
+  },
+  {
+    "filename": "park_019.jpg",
+    "original_id": 78404,
+    "original_filename": "000000078404.jpg",
+    "captions": [
+      "Three women sitting on a park bench next to each other.",
+      "A group of women sitting on a full bench.",
+      "3 ladies sitting together on a bench in the park. ",
+      "A group of women sitting on a park bench",
+      "The bench's maximum weight capacity may be strained."
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "bench"
+    ]
+  },
+  {
+    "filename": "park_020.jpg",
+    "original_id": 308631,
+    "original_filename": "000000308631.jpg",
+    "captions": [
+      "People stand around an antique motorcycle in a grassy area.",
+      "An old with motorcycle with people standing beside it.",
+      " A motorcycle parked in front of a crowd of people.",
+      "People standing around a home built motorcycle used for racing.",
+      "a group of people gathered around an old dirty vintage motorcycle"
+    ],
+    "match_score": 2,
+    "matched_keywords": [
+      "park",
+      "grass"
+    ]
+  }
+]

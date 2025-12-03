@@ -18,8 +18,8 @@ current_directory = Path.cwd()
 parent_directory = current_directory.parent
 
 # Test Paths
-ARASAAC_DATA_PATH = f'{parent_directory}/data/arasaac_pictograms_complete_20251106_130529.json'
-TEST_IMAGE_PATH = f'{current_directory}/test_images/cleaned_test_images/airport/clean_airport_002.jpg'
+ARASAAC_DATA_PATH = './data/arasaac_pictograms_complete_20251106_130529.json'
+TEST_IMAGE_PATH = './test_images/cleaned_test_images/airport/clean_airport_002.jpg'
 
 # Model
 BLIP_MODEL_NAME = 'Salesforce/blip-image-captioning-base'

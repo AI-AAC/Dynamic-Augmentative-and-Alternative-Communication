@@ -1,0 +1,377 @@
+[
+  {
+    "filename": "home_001.jpg",
+    "original_id": 216497,
+    "original_filename": "000000216497.jpg",
+    "captions": [
+      "Some chairs sit at an island near an open door. ",
+      "A kitchen in a house under construction and painting.",
+      "A kitchen featuring an open island for seating with high back stools.",
+      "In an unfinished room a counter sits with three chairs while a stove and cabinets sit in the distance.",
+      "a kitchen with a stove a table some chairs and a sink"
+    ],
+    "match_score": 7,
+    "matched_keywords": [
+      "kitchen",
+      "room",
+      "table",
+      "chair",
+      "house",
+      "stove",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_002.jpg",
+    "original_id": 543047,
+    "original_filename": "000000543047.jpg",
+    "captions": [
+      "A scene of an apartment with a dining table and a couple of couches.",
+      "A living room and dining room have two tables, couches, and multiple chairs.",
+      "A colorful living area with living room, dining room and a kitchen.",
+      "Living area with purple couches, looking into the dining area.",
+      "A living room and dining room are in pink and green."
+    ],
+    "match_score": 6,
+    "matched_keywords": [
+      "living room",
+      "kitchen",
+      "room",
+      "couch",
+      "table",
+      "chair"
+    ]
+  },
+  {
+    "filename": "home_003.jpg",
+    "original_id": 221708,
+    "original_filename": "000000221708.jpg",
+    "captions": [
+      "Lights shine on a wooden dining room table.",
+      "A kitchen with a table and four chairs.",
+      "Partial picture of a kitchen and a table and chairs under a lamp.",
+      "Small table and chairs set in a small kitchen.\n",
+      "A wood paneled kitchen with dining table and tiled floor."
+    ],
+    "match_score": 5,
+    "matched_keywords": [
+      "kitchen",
+      "room",
+      "lamp",
+      "table",
+      "chair"
+    ]
+  },
+  {
+    "filename": "home_004.jpg",
+    "original_id": 17379,
+    "original_filename": "000000017379.jpg",
+    "captions": [
+      "a flat screen TV embedded in a restroom mirror.",
+      "a tv in a bathroom mirror next to sinks",
+      "A football game on TV reflects in a bathroom mirror.",
+      "A flat screen TV adorns a bathroom mirror.",
+      "A photo of a video game in the middle of a large mirror in a bathroom. "
+    ],
+    "match_score": 5,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "bed",
+      "tv",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_005.jpg",
+    "original_id": 393569,
+    "original_filename": "000000393569.jpg",
+    "captions": [
+      "A young woman using a laptop computer while sitting on a bunk bed.",
+      "A person that is sitting in a bed facing out.",
+      "A young girl sits in the bottom bunk of her bunkbed.",
+      "A bedroom with bunk beds and the bathroom next door.",
+      "Three people live in one room who share a bathroom."
+    ],
+    "match_score": 4,
+    "matched_keywords": [
+      "bedroom",
+      "bathroom",
+      "room",
+      "bed"
+    ]
+  },
+  {
+    "filename": "home_006.jpg",
+    "original_id": 298396,
+    "original_filename": "000000298396.jpg",
+    "captions": [
+      "Kitchen area with counter top space and dining room table. ",
+      "A fully-stocked kitchen with no one in it.",
+      "An old style kitchen with baby blue cabinets.",
+      "A very clean and cozy looking kitchen that could be in a home magazine.",
+      "A kitchen filled with appliances dishes and a bowl of fruit."
+    ],
+    "match_score": 4,
+    "matched_keywords": [
+      "kitchen",
+      "room",
+      "table",
+      "home"
+    ]
+  },
+  {
+    "filename": "home_007.jpg",
+    "original_id": 187513,
+    "original_filename": "000000187513.jpg",
+    "captions": [
+      "A bathroom with a sliding shower door next to a toilet.",
+      "A bathroom with green walls and a toilet and a shower.",
+      "A photograph of a newly remodeled bathroom in a home.",
+      "A bathroom has green walls and a glass shower door.",
+      "a bathroom with a sink a mirror a toilet and a shower"
+    ],
+    "match_score": 4,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "home",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_008.jpg",
+    "original_id": 452793,
+    "original_filename": "000000452793.jpg",
+    "captions": [
+      "A kitchen with a granite counter top and faucet.",
+      "A kitchen with a stainless steel fridge and granite counters. ",
+      "A kitchen with a big fridge and a big sink.",
+      "This new fridge goes great in this clean kitchen.",
+      "View of kitchen sink, stainless refrigerator and breakfast room"
+    ],
+    "match_score": 4,
+    "matched_keywords": [
+      "kitchen",
+      "room",
+      "refrigerator",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_009.jpg",
+    "original_id": 223747,
+    "original_filename": "000000223747.jpg",
+    "captions": [
+      "a man sleeping with his cat next to him",
+      "A young man and his cute cat enjoy a nap together.",
+      "A man is sleeping with his head on a pillow.",
+      "Man sleeping in his bedroom next to a cat.",
+      "Man sleeping next to a cat on a bed. "
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bedroom",
+      "room",
+      "bed"
+    ]
+  },
+  {
+    "filename": "home_010.jpg",
+    "original_id": 51598,
+    "original_filename": "000000051598.jpg",
+    "captions": [
+      "A black trash bag in a restroom next to a sink.",
+      "a garbage bag in a white lighted bathroom",
+      "The bathroom has a wall sink, medicine cabinet, toothbrush holder, and bare walls.",
+      "A door is open to a white bathroom that has a black garbage back on the floor.",
+      "The bathroom door is open with the light on."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_011.jpg",
+    "original_id": 116479,
+    "original_filename": "000000116479.jpg",
+    "captions": [
+      "An old victorian style bed frame in a bedroom.",
+      "A bed in a bedroom with a white covering next to a doorway.",
+      "A canopy bed with white see through curtains. ",
+      "a white bed and a ceiling fan light ",
+      "A poster bed with canopy in a room. "
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bedroom",
+      "room",
+      "bed"
+    ]
+  },
+  {
+    "filename": "home_012.jpg",
+    "original_id": 570736,
+    "original_filename": "000000570736.jpg",
+    "captions": [
+      "A view of a bathroom that is clean.",
+      "A bathroom with a vanity, toilet and shower.",
+      "The bathroom features a vanity sink and tub/shower combination.",
+      "A small bathroom is featured in this photo.",
+      "a cream themed bathroom with a toilet, sink with mirror, and shower"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_013.jpg",
+    "original_id": 552883,
+    "original_filename": "000000552883.jpg",
+    "captions": [
+      "A view of a kitchen with cabinets, a sink and a clothes washer.",
+      "A counter top in a laundry room with a tile back splash",
+      "A empty laundry room with lot of storage space.",
+      "a kitchen with wooden cabinets a sink and a dish washer",
+      "a light green kitchen some cabinets  a dish washer and a sink"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "kitchen",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_014.jpg",
+    "original_id": 453634,
+    "original_filename": "000000453634.jpg",
+    "captions": [
+      "A bathroom with a toilette with it's seat down.",
+      "A bathroom with a sink and a toilet",
+      "A fancy bathroom with a clean toilet and piping.",
+      "a bathroom with a toilet a sink and a shower",
+      "A bathroom scene with focus on the toilet."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_015.jpg",
+    "original_id": 201775,
+    "original_filename": "000000201775.jpg",
+    "captions": [
+      "A bathroom with two urinals and a sink.",
+      "White stalls installed on the walls of a men's room.",
+      "Men's restroom with toilet and urinals along tiled walls.",
+      "A public bathroom with two urinals on a wall, and sink with a mirror over it on another wall",
+      "Two urinals and a sink in a bathroom.  "
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_016.jpg",
+    "original_id": 557501,
+    "original_filename": "000000557501.jpg",
+    "captions": [
+      "A bathroom is very colorful with blue yellow and red.",
+      "A colorful public restroom with striped walls and yellow counter.",
+      "a bathroom with two sinks near towel and soap dispensers ",
+      "A restroom with two sinks and a red colored stall.",
+      "A colorful public restroom focused on the sinks."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_017.jpg",
+    "original_id": 466085,
+    "original_filename": "000000466085.jpg",
+    "captions": [
+      "A bathroom that has been gutted with the shower basin the only thing left.",
+      "A bathroom that is under construction with a standing shower.",
+      "an unfinished bathroom with a sink and pipes on the floor",
+      "A shower base is installed as a bathroom undergoes renovations.",
+      "A rundown bathroom is being stripped and remodeled."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_018.jpg",
+    "original_id": 442009,
+    "original_filename": "000000442009.jpg",
+    "captions": [
+      "a bathroom with a bath tub near windows",
+      "A bathroom scene is shown with a tub and counter.",
+      "A bathroom with a bathtub and a sink overlooking a blue ocean.",
+      "A bathroom with a big white tub with legs.",
+      "A bathroom scene complete with a cast iron style tub."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  },
+  {
+    "filename": "home_019.jpg",
+    "original_id": 40471,
+    "original_filename": "000000040471.jpg",
+    "captions": [
+      "An older picture of a large kitchen with white appliances.",
+      "An all white painted kitchen with a ceiling fan.",
+      "A painted white kitchen with a refrigerator and an automatic dish washer next to an oven stove.",
+      "Small white kitchen with a ceiling fan hanging down.",
+      "a white kitchen with a ceiling fan a stove and refrigerator"
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "kitchen",
+      "refrigerator",
+      "stove"
+    ]
+  },
+  {
+    "filename": "home_020.jpg",
+    "original_id": 489091,
+    "original_filename": "000000489091.jpg",
+    "captions": [
+      "A residential bathroom has a modern motel look with upgraded fixtures and accessories.",
+      "A small bathroom with a large mirror and single sink vanity.",
+      "A white bathroom that has been newly cleaned",
+      "A bathroom sink next to a white toilet under a large mirror.",
+      "A vanity and toilet are in a bathroom under a mirror."
+    ],
+    "match_score": 3,
+    "matched_keywords": [
+      "bathroom",
+      "room",
+      "sink"
+    ]
+  }
+]
